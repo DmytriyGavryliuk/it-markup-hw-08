@@ -1,0 +1,40 @@
+/* Logo */
+
+.logo {
+    color: var(--accent-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.logo__footer {
+    color: var(--accent-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    
+      @media (min-width: 480px) {
+            display: flex;
+        }
+}
+
+.logo__main--black {
+    color: var(--logo-color);
+    // margin-left: -5px;
+}
+
+.logo__main--white {
+    color: var(--main-light-color);
+    // margin-left: -5px;
+}
