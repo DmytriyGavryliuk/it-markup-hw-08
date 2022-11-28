@@ -9,9 +9,9 @@
     @media (min-width: 480px) {
         justify-content: baseline;
     }
-}
 
-.socials__link {
+
+&__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,19 +26,19 @@
     transition-property: background-color;
 }
 
-.socials__link:hover,
-.socials__link:focus {
+&__link:hover,
+&__link:focus {
     background-color: var(--accent-color);
 }
 
-.socials__link:hover .socials__icon,
-.socials__link:focus .socials__icon {
+&__link:hover &__icon,
+&__link:focus &__icon {
     fill: var(--main-light-color);
 }
 
 /* team-socials */
 
-.socials__icon {
+&__icon {
     fill: var(--client-svg-color);
 
     transition-duration: 250ms;
@@ -46,7 +46,9 @@
     transition-property: fill;
 }
 
-.socials__link:hover .socials__icon {
+&__link:hover &__icon {
     fill: var(--main-light-color);
+
+}
 
 }

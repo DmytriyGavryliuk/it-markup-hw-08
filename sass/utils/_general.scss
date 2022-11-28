@@ -2,6 +2,13 @@ body {
     color: var(--main-font-color);
     background-color: var(--main-light-color);
     font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+a,
+button {
+    outline: none;
+
 }
 
 

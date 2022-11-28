@@ -2,9 +2,9 @@
 
 .portfolio {
     padding: 94px 0;
-}
 
-.portfolio__content {
+
+&__content {
     margin: 0;
     padding: 0;
     display: flex;
@@ -13,13 +13,13 @@
     margin-left: calc(-1 * var(--card-set-gap));
 }
 
-.portfolio__item {
+&__item {
     margin-top: calc(-1px + var(--card-set-gap));
     margin-left: calc(-6px + var(--card-set-gap));
     flex-basis: calc(100% / 3 - var(--card-set-gap));
 }
 
-.portfolio__link {
+&__link {
     text-decoration: none;
     display: block;
 
@@ -28,19 +28,19 @@
     transition-property: box-shadow;
 }
 
-.portfolio__link:hover,
-.portfolio__link:focus {
+&__link:hover,
+&__link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
         0px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.portfolio__drop-borders {
+&__drop-borders {
     position: relative;
     overflow: hidden;
 }
 
-.portfolio__drop-box {
+&__drop-box {
     position: absolute;
     display: flex;
     align-items: center;
@@ -55,7 +55,7 @@
     transition-property: opacity, transform;
 }
 
-.portfolio__drop-item {
+&__drop-item {
     position: absolute;
     width: 322px;
     height: 168px;
@@ -65,20 +65,20 @@
     color: var(--main-light-color);
 }
 
-.portfolio__link:hover .portfolio__drop-box,
-.portfolio__link:focus .portfolio__drop-box {
+&__link:hover &__drop-box,
+&__link:focus &__drop-box {
     opacity: 1;
     transform: translateY(-100%);
 }
 
-.portfolio__card-content {
+&__card-content {
     padding: 20px 24px;
     border-left: 1px solid var(--border-portfolio-color);
     border-right: 1px solid var(--border-portfolio-color);
     border-bottom: 1px solid var(--border-portfolio-color);
 }
 
-.portfolio__title {
+&__title {
     color: var(--main-font-color);
     font-weight: 700;
     font-size: 18px;
@@ -89,11 +89,13 @@
     width: 322px;
 }
 
-.portfolio__text {
+&__text {
     color: var(--secondary-font-color);
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
     text-decoration: none;
     margin-top: 4px;
+}
+
 }

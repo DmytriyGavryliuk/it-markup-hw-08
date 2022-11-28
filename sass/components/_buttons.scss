@@ -26,8 +26,8 @@
 
 }
 
-.button:hover,
-.button:focus {
+.hero__button:hover,
+.hero__button:focus {
     background-color: var(--secondary-accent-color);
 }
 
@@ -37,6 +37,8 @@
     gap: 10px;
     padding-left: 28px;
     margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 
     width: 200px;
     height: 50px;
@@ -56,9 +58,9 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: background-color;
 
-     @media (min-width: 480px) {
-        display: flex;
-        margin-top: 0px;
+     @media (min-width: 1200px) {
+        margin-left: 12px;
+        margin-right: 0px;
      }
 }
 
