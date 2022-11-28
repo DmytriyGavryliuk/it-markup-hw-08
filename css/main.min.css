@@ -1312,7 +1312,7 @@ p {
   margin-bottom: 48px;
 }
 .mobile-menu__navigation {
-  margin-bottom: 306px;
+  margin-bottom: auto;
 }
 .mobile-menu__link {
   margin-bottom: 32px;
@@ -1324,6 +1324,7 @@ p {
   letter-spacing: 0.02em;
   text-decoration: none;
   cursor: pointer;
+  color: var(--main-font-color);
 }
 .mobile-menu__item:hover, .mobile-menu__item:focus {
   color: var(--accent-color);

@@ -48,7 +48,7 @@
 
 
 &__navigation {
-    margin-bottom: 306px;
+    margin-bottom: auto;
 }
 
 &__link {
@@ -62,6 +62,7 @@
     letter-spacing: 0.02em;
     text-decoration: none;
     cursor: pointer;
+    color: var(--main-font-color);
 }
 
 &__item:hover,
